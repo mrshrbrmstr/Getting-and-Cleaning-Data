@@ -31,23 +31,23 @@ All of the feature values from both time and frequency domains have been normali
 
 Variable Names were altered to more descriptive names and follow this format prior to calculations of Mean and Standard Deviation on each:
 
-TimeBodyAcceleration.XYZ                Time            Body        Acceleration        X or Y or Z
-TimeGravityAcceleration.XYZ             Time            Gravity     Acceleration        X or Y or Z
-TimeBodyLinearJerk.XYZ                  Time            Body        Linear Jerk         X or Y or Z
-TimeBodyAngularVelocity.XYZ             Time            Body        Angular Velocity    X or Y or Z
-TimeBodyAngularJerk.XYZ                 Time            Body        Angular Jerk        X or Y or Z
-TimeBodyAccelerationMagnitude           Time            Body        Acceleration        Magnitude
-TimeGravityAccelerationMagnitude        Time            Gravity     Acceleration        Magnitude
-TimeBodyLinearJerkMagnitude             Time            Body        Linear Jerk         Magnitude
-TimeBodyAngularVelocityMagnitude        Time            Body        Angular Velocity    Magnitude
-TimeBodyAngularJerkMagnitude            Time            Body        Angular Jerk        Magnitude
-FrequencyBodyAcceleration.XYZ           Frequency       Body        Acceleration        X or Y or Z
-FrequencyBodyLinearJerk.XYZ             Frequency       Body        Linear Jerk         X or Y or Z
-FrequencyBodyAngularVelocity.XYZ        Frequency       Body        Angular Velocity    X or Y or Z
-FrequencyBodyAccelerationMagnitude      Frequency       Body        Acceleration        Magnitude
-FrequencyBodyLinearJerkMagnitude        Frequency       Body        Linear Jerk         Magnitude
-FrequencyBodyAngularVelocityMagnitude   Frequency       Body        Angular Velocity    Magnitude
-FrequencyBodyAngularJerkMagnitude       Frequency       Body        Angular Jerk        Magnitude
+    TimeBodyAcceleration.XYZ               Time        Body        Acceleration        X or Y or Z
+    TimeGravityAcceleration.XYZ            Time        Gravity     Acceleration        X or Y or Z
+    TimeBodyLinearJerk.XYZ                 Time        Body        Linear Jerk         X or Y or Z
+    TimeBodyAngularVelocity.XYZ            Time        Body        Angular Velocity    X or Y or Z
+    TimeBodyAngularJerk.XYZ                Time        Body        Angular Jerk        X or Y or Z
+    TimeBodyAccelerationMagnitude          Time        Body        Acceleration        Magnitude
+    TimeGravityAccelerationMagnitude       Time        Gravity     Acceleration        Magnitude
+    TimeBodyLinearJerkMagnitude            Time        Body        Linear Jerk         Magnitude
+    TimeBodyAngularVelocityMagnitude       Time        Body        Angular Velocity    Magnitude
+    TimeBodyAngularJerkMagnitude           Time        Body        Angular Jerk        Magnitude
+    FrequencyBodyAcceleration.XYZ          Frequency   Body        Acceleration        X or Y or Z
+    FrequencyBodyLinearJerk.XYZ            Frequency   Body        Linear Jerk         X or Y or Z
+    FrequencyBodyAngularVelocity.XYZ       Frequency   Body        Angular Velocity    X or Y or Z
+    FrequencyBodyAccelerationMagnitude     Frequency   Body        Acceleration        Magnitude
+    FrequencyBodyLinearJerkMagnitude       Frequency   Body        Linear Jerk         Magnitude
+    FrequencyBodyAngularVelocityMagnitude  Frequency   Body        Angular Velocity    Magnitude
+    FrequencyBodyAngularJerkMagnitude      Frequency   Body        Angular Jerk        Magnitude
 
 All variables in the tidy data set beginning with prefix "Time" include either ".Mean" or ".StandardDeviation" suffix.
 All variables in the tidy data set beginning with prefix "Frequency" include ".Mean", ".StandardDeviation", or ".MeanFrequency" suffix
@@ -62,7 +62,7 @@ The second, independent tidy data contains 180 observations of the average of ea
 
 
 	 Column Index                                 Variable Name Class of Variable
-	 ------------ 								  ------------- -----------------
+	 ------------                                 ------------- -----------------
 
 	  1                                                 Subject           integer
 	  2                                                Activity         character
